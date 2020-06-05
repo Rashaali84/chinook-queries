@@ -1,4 +1,4 @@
-/* Using MS SQL SERVER environment */
+/* Please note solution is by Using MS SQL SERVER environment */
 
 /*Provide a query showing Customers (just their full names, customer ID and country) who are not in the US.*/
 select CustomerId , (firstname + ' '+lastname) as fullName , Country from customer where Country <> 'USA'
